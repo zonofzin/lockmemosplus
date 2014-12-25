@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>LockMemosPlus</string>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>LockMemosPlus.png</string>
+		<key>label</key>
+		<string>LockMemosPlus</string>
+	</dict>
+	<key>items</key>
+	<array>
+	
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>AlertOption</string>
+			<key>label</key>
+			<string>Alert</string>
+			<key>validTitles</key>
+			<array>
+				<string>On Lockscreen</string>
+				<string>On Unlock</string>
+				<string>Off</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>label</key>
+			<string>Memo Title</string>
+			<key>key</key>
+			<string>AlertTitleOn</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Memos</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>autoCaps</key>
+			<string>sentences</string>
+			<key>key</key>
+			<string>Memo1</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>autoCaps</key>
+			<string>sentences</string>
+			<key>key</key>
+			<string>Memo2</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>autoCaps</key>
+			<string>sentences</string>
+			<key>key</key>
+			<string>Memo3</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>autoCaps</key>
+			<string>sentences</string>
+			<key>key</key>
+			<string>Memo4</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Reminder to charge your device when battery falls below a certain level</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>ChargeAlertLevel</string>
+			<key>label</key>
+			<string>Charge Memo</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>10%</string>
+				<string>20%</string>
+				<string>30%</string>
+				<string>40%</string>
+				<string>50%</string>
+				<string>60%</string>
+				<string>70%</string>
+				<string>80%</string>
+				<string>90%</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>10</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>40</integer>
+				<integer>50</integer>
+				<integer>60</integer>
+				<integer>70</integer>
+				<integer>80</integer>
+				<integer>90</integer>
+			</array>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Reminder that your ringer is set to silent (or switched on if you prefer)</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.zonofzin.lockmemosplus.prefs</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.zonofzin.lockmemosplus</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>RingerAlertType</string>
+			<key>label</key>
+			<string>Ringer Memo</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>When Ringer Off</string>
+				<string>When Ringer On</string>
+				<string>Always</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2013 - 2014 Zonofzin</string>
+		</dict>
+	</array>
+</dict>
+</plist>

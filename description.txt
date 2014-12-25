@@ -1,0 +1,9 @@
+Set alerts to remind you of important tasks or info each time you wake up your device or each time you unlock it.
+
+This is an enhanced version of the LockMemos tweak with new features. As well as setting your own memos, automatic alerts can be set to remind you:
+- to charge your device when the battery falls below a certain level
+- that your ringer is set to silent (or that it's switched on if you prefer)
+
+You can turn off the "Memo" title on alerts if you don't like it.
+
+All options configured from Settings app.

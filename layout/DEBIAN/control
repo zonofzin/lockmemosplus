@@ -1,0 +1,9 @@
+Package: com.zonofzin.lockmemosplus
+Name: LockMemosPlus
+Depends: mobilesubstrate
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Persistent reminders on your lockscreen
+Maintainer: zonofzin
+Author: zonofzin
+Section: Tweaks
